@@ -5,7 +5,6 @@ Documentar às primeiras 20h de estudo sobre docker. Estudarei utilizando a docu
 Para a buildar imagem e disponibilizar a aplicação na porta _8484_ da máquina host.
 ```
 //Construir a imagem utilizando o Dockerfile
-docker run -d -p 8484:3000 <CONTAINER ID>
 docker build snapTlec/app-node:1.0 .
 
 //Obter o ID da imagem
